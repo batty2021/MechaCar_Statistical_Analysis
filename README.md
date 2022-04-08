@@ -26,14 +26,20 @@ Based on the summary statistics, Lot 3 exceeds the allowed variation threshold w
 ## T-Tests on Suspension Coils
 
 - Overall T-Test
+
 ![overall_lots](https://user-images.githubusercontent.com/77947860/162542524-d901ec6e-54ba-4a25-8667-bc6da294139f.png)
-p-value of 4.938 sufficient evidence showing PSI across all manufacturing lots is not statistically different from the population mean.
+
+p-value of 4.938 sufficient evidence showing PSI across all manufacturing lots is 
+not statistically different from the population mean.
 
 - Manufacturing T-Test on Lot 1
+
 ![t-test_onLot1](https://user-images.githubusercontent.com/77947860/162542773-59c347fc-81cd-45af-8316-c946b5976446.png)
+
 p-value shows significant evidence that lot 1 is statistically similar to the population mean of 1,500 PSI.
  
  - Manufacturing T-Test on Lot 2
+ 
  ![t-test_onLot2](https://user-images.githubusercontent.com/77947860/162542842-bd031376-a5c5-4296-84f3-602e55766ce0.png)
 
 p-value shows significant evidence that lot 2 is statistically similar to the population mean of 1,500 PSI.
@@ -44,10 +50,14 @@ p-value shows significant evidence that lot 2 is statistically similar to the po
 p-value does not show significant evidence that lot 3 is statistically different from the population mean of 1,500 PSI.
 
 ## Study Design: MechaCar vs Competition.
-With the above statistical models and testing it would be possible to analyze production metrics of other vehicles and lots. Having relatively similar data for vehicles would allow comparison between MechaCars production and its competition. Such data should include vehicle production and performance specifications. Many metrics could be tested to identify vehicle performance including miles per gallon, car weight, and other physical features that relate to performanc
+With the above statistical models and testing it would be possible to analyze production metrics of other vehicles and lots.
+Having relatively similar data for vehicles would allow comparison between MechaCars production and its competition.
+Such data should include vehicle production and performance specifications. Many metrics could be tested to identify 
+vehicle performance including miles per gallon, car weight, and other physical features that relate to performanc
 
 # Hypothesis
-In order to properly test and build models a null and alternative hypothesis is needed. My hypothesis could be derived around the question "Is a car's spoiler angle related to mpg?"
+In order to properly test and build models a null and alternative hypothesis is needed. My hypothesis could be 
+derived around the question "Is a car's spoiler angle related to mpg?"
      - Null Hypothesis It is likely that spoiler angle has no relation to mpg and there will be not be sufficient evidence of a relationship
      - Alternate Hypothesis There will be sufficient evidence of a relationship to reject the null hypothesis.
   
